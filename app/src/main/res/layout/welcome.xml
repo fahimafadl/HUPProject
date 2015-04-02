@@ -16,14 +16,44 @@
         android:id="@+id/txtuser"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
         android:layout_below="@+id/txtwelcome"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:text="@string/txtuser"/>
 
-    <Button
-        android:id="@+id/logout"
+    <CheckBox
+        android:id="@+id/checkbox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:text="@string/LogoutBtn" />
+        android:layout_below="@+id/txtuser"
+        android:layout_marginLeft="15dp"
+        android:onClick="onCheckboxClicked"/>
+
+    <TextView
+        android:id="@+id/terms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/checkbox"
+        android:layout_toRightOf="@+id/checkbox"
+        android:text="@string/terms"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Continue"
+        android:id="@+id/button"
+        android:layout_below="@+id/checkbox"
+        android:layout_alignStart="@+id/checkbox"
+        android:onClick="onButtonClick"/>
+
+
+    <!--<Button-->
+        <!--android:id="@+id/logout"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_centerInParent="true"-->
+        <!--android:layout_below="@+id/txtuser"-->
+        <!--android:text="@string/LogoutBtn" />-->
 
 </RelativeLayout>

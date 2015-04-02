@@ -11,5 +11,20 @@
     <string name="SignupBtn">Sign Up</string>
     <string name="LogoutBtn">Log Out</string>
     <string name="Welcome">Welcome!</string>
+    <string name="txtuser">The medical information contained within this application is meant to
+        aid in the care of Neurosurgical patients. It should not take the place of interactions
+        with your physician or nurse. Please call the Neurosurgery department with any concern
+        and call 911 immediately for any life-threatening condition or issue. By agreeing to use
+        this application, you offer understanding of these statements.</string>
+    <string name="terms">I have read and understand the statements above.</string>
+    <string name="Continue">Continue</string>
+    <string name="title_activity_main_menu">MainMenuActivity</string>
+    <string name="title_activity_survery">SurveryActivity</string>
 
+    <string name="question1">1. Is your pain uncontrolled with medication?</string>
+    <string name="question2">2. Do you have any new difficulty stooling or urinating?</string>
+    <string name="question3">3. Shortness of breath or leg swelling?</string>
+    <string name="question4">4. Wound drainage and/or fever (temperature greater than 101.5)?</string>
+    <string name="question5">5. New weakness?</string>
+    <string name="comments">Any other comments or concerns?</string>
 </resources>
