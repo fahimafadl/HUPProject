@@ -45,5 +45,11 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/login"
         android:text="@string/SignupBtn" />
+    <Button
+        android:id="@+id/signup2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/signup"
+        android:text="LOGIN AS PRACTITIONER" />
 
 </RelativeLayout>

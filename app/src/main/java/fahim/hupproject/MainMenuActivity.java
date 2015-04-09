@@ -85,7 +85,7 @@ public class MainMenuActivity extends Activity {
     public void onSurveyClick(View view){
         Intent intent = new Intent(this,SurveryActivity.class);
         startActivity(intent);
-        // dfsfsg 
+        // dfsfsg
     }
 
     protected void displayNotification(){

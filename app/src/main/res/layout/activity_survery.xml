@@ -121,9 +121,16 @@
         android:layout_below="@+id/question5radio"
         android:text="@string/comments"/>
     <EditText
+        android:id="@+id/question6_edit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/question6"/>
 
+    <Button
+        android:id="@+id/signup2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/question6_edit"
+        android:text="Upload" />
 </RelativeLayout>
 </ScrollView>
